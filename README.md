@@ -1,9 +1,10 @@
-# Digger - All In One Information Gathering Tool 
-<img src="https://img.shields.io/aur/license/yaourt.svg"> <img src="https://img.shields.io/badge/python-3.x-brightgreen.svg"> <img src="https://img.shields.io/badge/release-v1.0-red.svg"> 
+# Digger - All In One Information Gathering Tool [v2.0]
+<img src="https://img.shields.io/aur/license/yaourt.svg"> <img src="https://img.shields.io/badge/python-3.x-brightgreen.svg"> <img src="https://img.shields.io/badge/release-v2.0-red.svg"> 
 
 Digger is a multi functional tool written in python for all of your primary data gathering wants. It makes use of APIs to assemble all the data so your id just isn’t uncovered.
 
-![2018-10-19_144045](https://user-images.githubusercontent.com/35377569/47209059-0b77be80-d3ad-11e8-92b6-8ab0a6cd5e87.jpg)
+![2018-12-03_160716](https://user-images.githubusercontent.com/35377569/49368885-fb762d00-f715-11e8-823c-4773f853cd95.jpg)
+
 
 ### Features
 - [x] Whois Lookup
@@ -13,6 +14,8 @@ Digger is a multi functional tool written in python for all of your primary data
 - [x] IP Location Lookup 
 - [x] Port Scan
 - [x] HTTP Header Check
+- [x] URL Extractor
+- [x] robots.txt Checker
 
 ### How to Install and Run in Linux
 [1] Enter the following command in the terminal to download it.
