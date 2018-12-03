@@ -5,7 +5,6 @@
 import os
 import sys
 import requests
-import http.client
 
 
 my_ip = requests.get("https://ident.me/").content.decode("UTF-8")
