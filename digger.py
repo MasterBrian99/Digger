@@ -5,7 +5,7 @@
 import os
 import sys
 import requests
-
+import exifread
 
 my_ip = requests.get("https://ident.me/").content.decode("UTF-8")
 
@@ -42,8 +42,9 @@ def wlogo():
     {7} HTTP Header Check
     {8} URL Extractor
     {9} robots.txt Checker
-    {10} Update
-    {11} Exit
+    {10} Exif Grabber
+    {11} Update
+    {12} Exit
 ''')
 
 
@@ -70,8 +71,9 @@ def llogo():
     {7} HTTP Header Check
     {8} URL Extractor
     {9} robots.txt Checker
-    {10} Update
-    {11} Exit
+    {10} Exif Grabber
+    {11} Update
+    {12} Exit
 ''')
 
 
@@ -245,6 +247,16 @@ def choice():
                 print(check.text)
 
         elif selection == '10':
+            print("Only .JPG image format is supported")
+            photo = input("Enter Photo Name - ")
+            f = open(photo, 'rb')
+            tags = exifread.process_file(f)
+            for tag in tags:
+                value = tags[tag]
+                if tag not in ['JPEGThumbnail']:
+                    print(str(tag) + " : "+str(value))
+
+        elif selection == '11':
             print("Checking for updates...")
             digger = requests.get(
                 "https://raw.githubusercontent.com/Sameera-Madhushan/Digger/master/digger.py").content.decode("UTF-8")
@@ -271,7 +283,7 @@ def choice():
                 print("Digger is Upto Date.")
                 exit()
 
-        elif selection == '11':
+        elif selection == '12':
             quit()
 
         else:
