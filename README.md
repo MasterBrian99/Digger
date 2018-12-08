@@ -3,7 +3,7 @@
 
 Digger is a multi functional tool written in python for all of your primary data gathering wants. It makes use of APIs to assemble all the data so your id just isn’t uncovered.
 
-![2018-12-03_160716](https://user-images.githubusercontent.com/35377569/49368885-fb762d00-f715-11e8-823c-4773f853cd95.jpg)
+![2018-12-08_212506](https://user-images.githubusercontent.com/35377569/49687872-cca1f180-fb2f-11e8-8f14-40ff0762cf79.jpg)
 
 
 ### Features
