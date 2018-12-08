@@ -16,6 +16,7 @@ Digger is a multi functional tool written in python for all of your primary data
 - [x] HTTP Header Check
 - [x] URL Extractor
 - [x] robots.txt Checker
+- [x] Exif Grabber
 
 ### How to Install and Run in Linux
 [1] Enter the following command in the terminal to download it.
