@@ -6,3 +6,4 @@ pipreqs==0.4.9
 requests==2.20.0
 urllib3==1.23
 yarg==0.1.9
+exifread==2.1.2
